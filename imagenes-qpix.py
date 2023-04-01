@@ -51,10 +51,10 @@ class Ui_MainWindow(object):
         self.eluney.setText(_translate("MainWindow", "ELUNEY"))
 
     def show_izan(self):
-        self.photo.setPixmap(QtGui.QPixmap("pollito 1.0.jpg"))
+        self.photo.setPixmap(QtGui.QPixmap("img/pollito 1.0.jpg"))
 
     def show_eluney(self):
-        self.photo.setPixmap(QtGui.QPixmap("pollita.jpeg"))
+        self.photo.setPixmap(QtGui.QPixmap("img/pollita.jpeg"))
 
 if __name__ == "__main__":
     import sys
