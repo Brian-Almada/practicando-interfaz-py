@@ -20,7 +20,7 @@ class Ui_MainWindow(object):
         self.photo = QtWidgets.QLabel(self.centralwidget)
         self.photo.setGeometry(QtCore.QRect(0, 0, 581, 501))
         self.photo.setText("")
-        self.photo.setPixmap(QtGui.QPixmap("../OneDrive/Imágenes/pollito 1.0.jpg"))
+        self.photo.setPixmap(QtGui.QPixmap("pollito 1.0.jpg"))
         self.photo.setScaledContents(True)
         self.photo.setObjectName("photo")
         self.izan = QtWidgets.QPushButton(self.centralwidget)
@@ -41,12 +41,20 @@ class Ui_MainWindow(object):
         self.retranslateUi(MainWindow)
         QtCore.QMetaObject.connectSlotsByName(MainWindow)
 
+        self.izan.clicked.connect(self.show_izan)
+        self.eluney.clicked.connect(self.show_eluney)
+
     def retranslateUi(self, MainWindow):
         _translate = QtCore.QCoreApplication.translate
         MainWindow.setWindowTitle(_translate("MainWindow", "MainWindow"))
         self.izan.setText(_translate("MainWindow", "IZAN"))
         self.eluney.setText(_translate("MainWindow", "ELUNEY"))
 
+    def show_izan(self):
+        self.photo.setPixmap(QtGui.QPixmap("pollito 1.0.jpg"))
+
+    def show_eluney(self):
+        self.photo.setPixmap(QtGui.QPixmap("pollita.jpeg"))
 
 if __name__ == "__main__":
     import sys

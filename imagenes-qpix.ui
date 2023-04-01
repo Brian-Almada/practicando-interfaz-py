@@ -27,7 +27,7 @@
      <string/>
     </property>
     <property name="pixmap">
-     <pixmap>../OneDrive/Imágenes/pollito 1.0.jpg</pixmap>
+     <pixmap>pollito 1.0.jpg</pixmap>
     </property>
     <property name="scaledContents">
      <bool>true</bool>
