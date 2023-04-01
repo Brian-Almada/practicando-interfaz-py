@@ -85,6 +85,9 @@
    <property name="statusTip">
     <string>Copy a file</string>
    </property>
+   <property name="shortcut">
+    <string>Ctrl+C</string>
+   </property>
   </action>
   <action name="actionCut">
    <property name="text">
