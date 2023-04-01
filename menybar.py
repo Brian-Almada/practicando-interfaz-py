@@ -71,6 +71,7 @@ class Ui_MainWindow(object):
         self.actionOpen.setText(_translate("MainWindow", "Open"))
         self.actionCopy.setText(_translate("MainWindow", "Copy"))
         self.actionCopy.setStatusTip(_translate("MainWindow", "Copy a file"))
+        self.actionCopy.setShortcut(_translate("MainWindow", "Ctrl+C"))
         self.actionCut.setText(_translate("MainWindow", "Cut"))
         self.actionPaste.setText(_translate("MainWindow", "Paste"))
         self.actionPaste.setStatusTip(_translate("MainWindow", "Paste a file"))
