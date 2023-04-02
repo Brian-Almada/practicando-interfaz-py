@@ -78,6 +78,32 @@
        </item>
        <item>
         <widget class="QFrame" name="frame_3">
+         <property name="styleSheet">
+          <string notr="true">QSlider::groove:horizontal {
+	border: 1px solid #00aaff;
+	height: 4px;
+	background: #00aaff;
+}
+
+QSlider::handle:horizontal {
+	background: rgb(0, 170, 255);
+	width: 28px;
+	height: 28px;
+	left: 11px;
+	margin: -12px;
+	border-radius: 14px;
+}
+
+QSlider::add-page:horizontal {
+	background-color: white;
+	border: 1px solid white;
+}
+
+QLabel {
+	color: rgb(0, 170, 255);
+	font: 75 11pt &quot;MS Shell Dig 2&quot;;
+}</string>
+         </property>
          <property name="frameShape">
           <enum>QFrame::StyledPanel</enum>
          </property>
@@ -100,6 +126,134 @@ font: 87 12pt &quot;Arial Black&quot;;
           </property>
           <property name="text">
            <string>Abrir imagen</string>
+          </property>
+         </widget>
+         <widget class="QSlider" name="horizontalSlider">
+          <property name="geometry">
+           <rect>
+            <x>20</x>
+            <y>120</y>
+            <width>160</width>
+            <height>30</height>
+           </rect>
+          </property>
+          <property name="minimumSize">
+           <size>
+            <width>0</width>
+            <height>30</height>
+           </size>
+          </property>
+          <property name="orientation">
+           <enum>Qt::Horizontal</enum>
+          </property>
+         </widget>
+         <widget class="QSlider" name="horizontalSlider_2">
+          <property name="geometry">
+           <rect>
+            <x>20</x>
+            <y>170</y>
+            <width>160</width>
+            <height>30</height>
+           </rect>
+          </property>
+          <property name="minimumSize">
+           <size>
+            <width>0</width>
+            <height>30</height>
+           </size>
+          </property>
+          <property name="orientation">
+           <enum>Qt::Horizontal</enum>
+          </property>
+         </widget>
+         <widget class="QSlider" name="horizontalSlider_3">
+          <property name="geometry">
+           <rect>
+            <x>20</x>
+            <y>220</y>
+            <width>160</width>
+            <height>30</height>
+           </rect>
+          </property>
+          <property name="minimumSize">
+           <size>
+            <width>0</width>
+            <height>30</height>
+           </size>
+          </property>
+          <property name="orientation">
+           <enum>Qt::Horizontal</enum>
+          </property>
+         </widget>
+         <widget class="QSlider" name="horizontalSlider_4">
+          <property name="geometry">
+           <rect>
+            <x>20</x>
+            <y>270</y>
+            <width>160</width>
+            <height>30</height>
+           </rect>
+          </property>
+          <property name="minimumSize">
+           <size>
+            <width>0</width>
+            <height>30</height>
+           </size>
+          </property>
+          <property name="orientation">
+           <enum>Qt::Horizontal</enum>
+          </property>
+         </widget>
+         <widget class="QLabel" name="label">
+          <property name="geometry">
+           <rect>
+            <x>196</x>
+            <y>120</y>
+            <width>51</width>
+            <height>21</height>
+           </rect>
+          </property>
+          <property name="text">
+           <string>H</string>
+          </property>
+         </widget>
+         <widget class="QLabel" name="label_2">
+          <property name="geometry">
+           <rect>
+            <x>200</x>
+            <y>180</y>
+            <width>47</width>
+            <height>13</height>
+           </rect>
+          </property>
+          <property name="text">
+           <string>S</string>
+          </property>
+         </widget>
+         <widget class="QLabel" name="label_3">
+          <property name="geometry">
+           <rect>
+            <x>200</x>
+            <y>230</y>
+            <width>47</width>
+            <height>13</height>
+           </rect>
+          </property>
+          <property name="text">
+           <string>V</string>
+          </property>
+         </widget>
+         <widget class="QLabel" name="label_4">
+          <property name="geometry">
+           <rect>
+            <x>200</x>
+            <y>280</y>
+            <width>47</width>
+            <height>13</height>
+           </rect>
+          </property>
+          <property name="text">
+           <string>GRAY</string>
           </property>
          </widget>
         </widget>
