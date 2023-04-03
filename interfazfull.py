@@ -12,9 +12,6 @@ from PyQt5.QtWidgets import QMainWindow, QApplication
 from PyQt5.uic import loadUi
 from PyQt5.QtWidgets import QFileDialog
 from PyQt5.QtGui import QImage, QPixmap
-import imutils
-import cv2
-import sys
 
 
 class Ui_MainWindow(object):
